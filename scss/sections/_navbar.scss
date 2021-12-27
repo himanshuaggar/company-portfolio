@@ -1,0 +1,22 @@
+@use'../custom' as *;
+@use '../components/mixin';
+
+
+.menu{
+    a{
+        img{
+            height: 150px;
+            width: 210px;
+        }
+    }
+
+    
+    li{
+        padding: 0 0.7rem;
+        a{
+            color: $white !important;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+// MY THEME COLOURS
+
+$red:     #dc3545 !default;
+$blue:    #0d6efd !default;
+$red-dark: #D2042D;
+$blue-light: #0096FF;	
+//WHITE AND GREY COLOURS
+$white:    #fff ;
+$gray-100: #f8f9fa ;
+$gray-200: #e9ecef ;
+$gray-300: #dee2e6 ;
+$gray-400: #ced4da ;
+$gray-500: #adb5bd ;
+$gray-600: #6c757d ;
+$gray-700: #495057 ;
+$gray-800: #343a40 ;
+$gray-900: #212529 ;
+$black:    #000 ;
+
+//
+$primary:       $blue-light ;
+$secondary:     $red-dark ;
+
+// accordian overights
+
+$accordion-icon-color:                    $primary;
+$accordion-icon-active-color:             $secondary;
+
+$accordion-icon-width:                    1.725rem;
+
+//IMPORT BOOTSTRAP 5
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
